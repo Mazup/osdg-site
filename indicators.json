@@ -238,6 +238,14 @@
       "indicators": [
         
         {
+          "id": "3-1",
+          "title": "Name des Ziels",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/3-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-1-1",
           "title": "Name des Indikators",
           "description": "",
