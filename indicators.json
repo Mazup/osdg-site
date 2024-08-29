@@ -6,20 +6,12 @@
       "indicators": [
         
         {
-          "id": "1-1",
-          "title": "global_indicators.1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/osdg-site/1-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "1-1-1",
-          "title": "Anteil der Bevölkerung, die unter der internationalen Armutsgrenze lebt, nach Geschlecht, Alter, Erwerbsstatus  und geographischer Lage (urban/rural)",
+          "title": "Name des de-Indikators",
           "description": "",
           "keywords": "",
           "href": "/osdg-site/1-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1",
@@ -125,6 +117,14 @@
       "title": "Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern",
       "indicators": [
         
+        {
+          "id": "2-1",
+          "title": "global_indicators.2-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/2-1/",
+          "status": "notstarted"
+        },
         {
           "id": "2-1-1",
           "title": "Prävalenz von Unterernährung",
