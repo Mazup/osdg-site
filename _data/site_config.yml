@@ -31,7 +31,7 @@ create_goals:
     - goal: 1
       content: My content for goal 2 with a [link](https://example.com)
       content_heading: My sub-heading for the content on goal 2
-    - goal: 2_2
+    - goal: 2
       heading: My heading for goal 1
       content: My content for goal 1
 create_indicators:
