@@ -28,8 +28,10 @@ create_goals:
   previous_next_links: false
   # goals: []
   goals:
+  - goal: 1.2
   - heading: My heading for goal 1
     content: My content for goal 1
+  - goal: 2.1
   - heading: My heading for goal 2
     content: My content for goal 2 with a [link](https://example.com)
 create_indicators:
