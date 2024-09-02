@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Metadaten bearbeiten: 16.3.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Metadaten bearbeiten: 16.8.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -242,7 +242,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Metadaten bearbeiten: 16.3.1</h1></div>
+    <div class="col-md-12"><h1>Metadaten bearbeiten: 16.8.1</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -618,7 +618,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Konzept:\nZiel ist es, angesichts einer geringen Inhaftierungsquote in Schleswig-Holstein zukünftig einen Wert  von unter 40,0 zu erreichen. Die Bewertung bezieht sich auf die Daten (i.d.R. 2005 -2017) des 1. Berichts  Schleswig-Holsteins zu den UN-Nachhaltigkeitszielen. Trotz leichten Anstiegs befindet sich  Schleswig-Holstein europa- und, soweit verlässliche Vergleichsdaten vorliegen, weltweit unter den Länder mit den geringsten Gefangenenquoten. Der Norden setzt das juristische Prinzip wirksam um, Freiheitsentzug  nur als letztes Mittel anzuwenden, was nicht zuletzt kriminologischen Erkenntnissen entspricht. Es ist zu  erwarten, dass die derzeit niedrige Inhaftierungsquote stabil bleiben und mittelfristig die Zielmarke von unter 40,0 erreicht werden wird.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Definition:\nThe proportion of the employed population below the international poverty line of US$1.90 per day, also referred to as the working poverty rate, is defined as the share of employed persons living in households with per-capita consumption or income that is below the international poverty line of US$1.90. ## Konzept:\nFür den Indikator ist kein Zielwert festgelegt (Reporting-Indikator). Die Bewertung bezieht sich  auf die Daten (i.d.R. 2005 -2017) des 1. Berichts Schleswig-Holsteins zu den UN-Nachhaltigkeitszielen. Wesentlicher Faktor für die Erhöhung des Schuldenstands in den vergangenen Jahren waren 2018, neben  anderen Altverpflichtungen, die Inanspruchnahme des Landes Schleswig-Holstein aus dem Rückgarantievertrag  mit der HSH Finanzfonds AöR. Dies wird auch in den kommenden Jahren die Situation beeinflussen, weshalb  die Entwicklung des Indikators weitere Herausforderungen mit sich bringen wird.\n");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -963,7 +963,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', '16-3-1');
+      translationLink = translationLink.replace('[id]', '16-8-1');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'de');
@@ -998,7 +998,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, '16-3-1.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, '16-8-1.yml', 'text/plain;charset=utf-8');
       }
     });
 
