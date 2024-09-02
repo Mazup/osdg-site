@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Metadaten bearbeiten: 3.1.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Metadaten bearbeiten: 16.3.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -242,7 +242,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Metadaten bearbeiten: 3.1.1</h1></div>
+    <div class="col-md-12"><h1>Metadaten bearbeiten: 16.3.1</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -466,46 +466,10 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_GOAL', "3: Großes Ziel");
-        var propertyEditor = editor.getEditor('root.SDG_GOAL');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_GOAL');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_TARGET', "3.1: Teilziel");
-        var propertyEditor = editor.getEditor('root.SDG_TARGET');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_TARGET');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "3.1.1: Indikator, der das Teilziel prüft");
-        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: SDG_INDICATOR');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
     
@@ -654,7 +618,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "## Definition:\nDefinition des Ziels\n## Konzepte:\n**Konzept 1:** All persons of working age who, during a short reference period (one week), were engaged in any activity to produce goods or provide services for pay or profit.\n\n**Poverty Line:** Threshold below which individuals in the reference population are considered poor and above which they are considered non-poor. The threshold is generally defined as the per-capita monetary requirements an individual needs to afford the purchase of a basic bundle of goods and services. For the purpose of this indicator, an absolute international poverty line of US$1.90 per day is used.\n\n**Household in poverty:** Households are defined as poor if their income or consumption expenditure is below the poverty line taking into account the number of household members and composition (e.g., number of adults and children).\n\n**Working poor:** Employed persons living in households that are classified as poor, that is, that have income or consumption levels below the poverty line used for measurement.");
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "");
         var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -952,7 +916,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_data_updated_date', "2024-08-28");
+        var currentValue = normalizeCurrentValue('national_data_updated_date', "2024-09-02");
         var propertyEditor = editor.getEditor('root.national_data_updated_date');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -966,7 +930,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2024-08-29");
+        var currentValue = normalizeCurrentValue('national_metadata_updated_date', "2024-09-02");
         var propertyEditor = editor.getEditor('root.national_metadata_updated_date');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -999,7 +963,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', '3-1-1');
+      translationLink = translationLink.replace('[id]', '16-3-1');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'de');
@@ -1034,7 +998,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, '3-1-1.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, '16-3-1.yml', 'text/plain;charset=utf-8');
       }
     });
 
