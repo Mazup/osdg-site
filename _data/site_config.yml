@@ -63,12 +63,16 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+  # - path: https://twitter.com/MyTwitterAccount
+  #  translation_key: general.twitter
+  # - path: https://facebook.com/MyFacebookAccount
+  #  translation_key: general.facebook
+  # - path: /about/cookies-and-privacy/
+  #  translation_key: menu.cookies
+  - path: /reporting-status
+    translation_key: menu.reporting_status
+  - path: /news
+    translation_key: menu.updates
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -178,9 +182,9 @@ menu:
   - path: /goals
     translation_key: general.goals
     dropdown: []
-  - path: /reporting-status
-    translation_key: menu.reporting_status
-    dropdown: []
+  # - path: /reporting-status
+  #  translation_key: menu.reporting_status
+  #  dropdown: []
   # - path: /news
   #  translation_key: menu.updates
   #  dropdown: []
