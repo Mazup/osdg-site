@@ -26,10 +26,10 @@ Das Handlungsfeld beinhaltet diese Ziele für nachhaltige Entwicklung:
 - Betriebliche Beschäftigungsquote von Menschen mit Behinderungen (Indikator-Nr. 12)
 -	Ausgaben für Barrierefreiheit (Indikator-Nr. 13)
 
-#### [<img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/16.png" width="50" height="auto" title="Frieden, Gerechtigkeit und	starke Institutionen" align="middle" hspace="15"> Frieden, Gerechtigkeit und	starke Institutionen] (/osdg-site/16/)
+#### [<img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/16.png" width="50" height="auto" title="Frieden, Gerechtigkeit und	starke Institutionen" align="middle" hspace="15"> Frieden, Gerechtigkeit und	starke Institutionen](/osdg-site/16/)
 - Häufigkeitszahl Straftaten (Indikator-Nr. 1)
 -	Personalausstattung in Gerichten und Staatsanwaltschaften (Indikator-Nr. 2)
-- [Inhaftierungsquote](osdg-site/16-3-1/) (Indikator-Nr. 3)
+- [Inhaftierungsquote](/osdg-site/16-3-1/) (Indikator-Nr. 3)
 -	Anzahl der elektronisch angebotenen Verwaltungsleistungen	des Landes und der Kommunen (Indikator-Nr. 4.a)
 -	Umfang der elektronisch automatisierten Dienste zwischen Behörden (Indikator-Nr. 4.b)
 -	Staatsdefizit (Indikator-Nr. 7)
