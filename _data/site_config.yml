@@ -187,9 +187,9 @@ menu:
   - path: /handlungsfelder
     translation_key: menu.handlungsfelder
     dropdown: [
-      - path: /handlungsfelder/good-governance
-      translation_key: menu.good-governance
-      dropdown: []
+  #    - path: /handlungsfelder/good-governance
+  #    translation_key: menu.good-governance
+  #    dropdown: []
     ]
   - path: /faq
     translation_key: menu.faq
