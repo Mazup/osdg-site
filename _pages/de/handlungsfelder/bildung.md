@@ -5,7 +5,7 @@ language: de
 permalink: /handlungsfelder/bildung
 ---
 
-Gute Regierungsführung und gesellschaftliche Teil-habe sind auch in entwickelten Staaten relevante Themen. Mit fortschreitenden gesellschaftlichen und technologischen Entwicklungen verändern sich auch die Ansprüche und berechtigten Erwartungen der Bürgerinnen und Bürger gegenüber dem Staat und seinen Institutionen. Ein leistungsfähiger, moderner Staat zeichnet sich dadurch aus, dass er diese Ent-wicklungen nachvollzieht und in diesem Rahmen die Wahrnehmung seiner Aufgaben fortlaufend überprüft und entsprechend den veränderten Erfordernissen anpasst.
+Der erfolgreiche Wandel zur Wissensgesellschaft sowie die Stärkung der Innovationsfähigkeit sind für Schleswig-Holstein entscheidend. Bildung entscheidet maßgeblich über individuelle Lebenschancen und ist gleichzeitig ein wesentlicher Faktor für wirtschaftliche Entwicklung und soziale Integration. Bildung ist für uns deshalb mit Bildungsgerechtigkeit verknüpft. Wir wollen allen ermöglichen, ihre Bildungschancen aus-zuschöpfen, und hierbei kein Kind zurücklassen. Ziel ist eine Bildungslandschaft, die jedem Menschen im Land Zugang zu den bestmöglichen Abschlüssen bietet und die Bildung hochwertig vermitteln kann.
 
 1. eins
 2. zwei
