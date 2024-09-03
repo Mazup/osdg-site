@@ -9,7 +9,7 @@ Die Landesregierung hat ein Indikatoren-Set erarbeitet, das die Grundlage für e
 
 Das Indikatoren-Set ordnet die UN-Nachhaltigkeitsziele daher acht übergreifenden politischen Handlungsfeldern zu:
 
-(1) [Good Governance und gesellschaftliche Teilhabe](/good-governance)
+(1) [Good Governance und gesellschaftliche Teilhabe](/osdg-site/handlungsfelder/good-governance)
 (2) Gesundes Leben
 (3) Bildung
 (4) Soziale Gerechtigkeit
