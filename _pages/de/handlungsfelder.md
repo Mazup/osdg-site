@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 title: Handlungsfelder
 language: de
 permalink: /handlungsfelder/
