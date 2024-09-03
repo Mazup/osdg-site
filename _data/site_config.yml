@@ -181,9 +181,16 @@ menu:
   - path: /reporting-status
     translation_key: menu.reporting_status
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
+  # - path: /news
+  #  translation_key: menu.updates
+  #  dropdown: []
+  - path: /handlungsfelder
+    translation_key: menu.handlungsfelder
+    dropdown: [
+      - path: /handlungsfelder/good-governance
+      translation_key: menu.good-governance
+      dropdown: []
+    ]
   - path: /faq
     translation_key: menu.faq
     dropdown: []
