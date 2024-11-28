@@ -25,6 +25,22 @@
   },
   {
     "goal": {
+      "id": "2",
+      "title": "Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern",
+      "indicators": [
+        
+        {
+          "id": "2-1-1",
+          "title": "Das ist mein Testindikator",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/2-1-1/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "3",
       "title": "Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern",
       "indicators": [
