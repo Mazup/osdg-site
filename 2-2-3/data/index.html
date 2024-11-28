@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Daten bearbeiten: 16.8.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Daten bearbeiten: 2.2.3 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -240,7 +240,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row no-gutters">
-    <div class="col-md-12"><h1>Daten bearbeiten: 16.8.1</h1></div>
+    <div class="col-md-12"><h1>Daten bearbeiten: 2.2.3</h1></div>
   </div>
   <div class="row config-widgets">
     <div class="col-md-6 data-grid-buttons">
@@ -282,7 +282,7 @@ data-event-label="high"
       return false;
     }
     httpRequest.onreadystatechange = displaySpreadsheet;
-    httpRequest.open('GET', 'https://mazup.github.io/osdg-data/untranslated/data/16-8-1.csv');
+    httpRequest.open('GET', 'https://mazup.github.io/osdg-data/untranslated/data/2-2-3.csv');
     httpRequest.send();
   }
 
@@ -342,7 +342,7 @@ data-event-label="high"
   document.getElementById('export').onclick = function() {
     gridOptions.api.stopEditing();
     gridOptions.api.exportDataAsCsv({
-      fileName: 'indicator_16-8-1',
+      fileName: 'indicator_2-2-3',
     });
   }
 
