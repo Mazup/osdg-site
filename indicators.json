@@ -89,6 +89,22 @@
   },
   {
     "goal": {
+      "id": "12",
+      "title": "Nachhaltige Konsum- und Produktionsmuster sicherstellen",
+      "indicators": [
+        
+        {
+          "id": "12-2-5",
+          "title": "Test 12 2 5",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/12-2-5/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "16",
       "title": "Friedliche und inklusive Gesellschaften für eine nachhaltige Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und leistungsfähige, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen",
       "indicators": [
