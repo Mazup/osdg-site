@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Konfiguration bearbeiten: 2.2.2 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Konfiguration bearbeiten: 12.2 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -240,7 +240,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Konfiguration bearbeiten: 2.2.2</h1></div>
+    <div class="col-md-12"><h1>Konfiguration bearbeiten: 12.2</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -464,6 +464,18 @@ data-event-label="high"
     // Set values according to this site's configuration.
     propertyEditorAccessibilityFixes(editor.getEditor('root.composite_breakdown_label'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_units', "Menschen");
+        var propertyEditor = editor.getEditor('root.computation_units');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_units');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.copyright'));
@@ -508,7 +520,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "Test");
+        var currentValue = normalizeCurrentValue('graph_title', "Testdefinition");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -540,7 +552,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "Test 21");
+        var currentValue = normalizeCurrentValue('indicator_name', "Test 12 2");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -554,7 +566,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_number', "2-2-2");
+        var currentValue = normalizeCurrentValue('indicator_number', "12-2");
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -631,7 +643,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', '2-2-2');
+      translationLink = translationLink.replace('[id]', '12-2');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'de');
@@ -666,7 +678,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, '2-2-2.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, '12-2.yml', 'text/plain;charset=utf-8');
       }
     });
 

@@ -94,6 +94,14 @@
       "indicators": [
         
         {
+          "id": "12-2",
+          "title": "Test 12 2",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/12-2/",
+          "status": "complete"
+        },
+        {
           "id": "12-2-5",
           "title": "Test 12 2 5",
           "description": "",
