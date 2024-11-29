@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/osdg-site/assets/css/style.css?v=20241129093146">
+        <link rel="stylesheet" href="/osdg-site/assets/css/style.css?v=20241129095655">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -492,12 +492,60 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_show_map'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_start_values', [{"field":"Gruppe","value":"Blam"},{"field":"Gruppe","value":"Blom"},{"field":"Gruppe","value":"Blem"}]);
+        var propertyEditor = editor.getEditor('root.data_start_values');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_start_values');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_start_values'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_footer', "This graph is provided by \"My Organisation\"");
+        var propertyEditor = editor.getEditor('root.embedded_feature_footer');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_footer');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_footer'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_html', "<h3>Hello again</h3><p>This is a text I wrote into the meta section</p><p><a href=\"\">Das könnte ein Link sein</a></p>");
+        var propertyEditor = editor.getEditor('root.embedded_feature_html');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_html');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_html'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('embedded_feature_tab_title', "Embedded Chart");
+        var propertyEditor = editor.getEditor('root.embedded_feature_tab_title');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: embedded_feature_tab_title');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_tab_title'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.embedded_feature_title'));
@@ -506,16 +554,64 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.expected_disaggregations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('footer_fields', [{"label":"My field label","value":"My field content"},{"label":"My other field label","value":"My other field content"}]);
+        var propertyEditor = editor.getEditor('root.footer_fields');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: footer_fields');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.footer_fields'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('graph_annotations', [{"unit":"blom","value":34,"preset":"target_line","label":[{"position":"top right"},{"content":"Aber hallo"}]}]);
+        var propertyEditor = editor.getEditor('root.graph_annotations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_annotations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_annotations'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_limits'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_series_breaks'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('graph_stacked_disaggregation', "Blem");
+        var propertyEditor = editor.getEditor('root.graph_stacked_disaggregation');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_stacked_disaggregation');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_stacked_disaggregation'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('graph_target_lines', [{"series":"Ziel 2030","value":30}]);
+        var propertyEditor = editor.getEditor('root.graph_target_lines');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: graph_target_lines');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.graph_target_lines'));
 
     
@@ -754,12 +850,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/osdg-site/assets/js/sdg.js?v=20241129093146'></script>
+<script src='/osdg-site/assets/js/sdg.js?v=20241129095655'></script>
 
 
     
     
-    <script src="/osdg-site/assets/js/custom.js?v=20241129093146"></script><script>
+    <script src="/osdg-site/assets/js/custom.js?v=20241129095655"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
