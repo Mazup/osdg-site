@@ -89,6 +89,22 @@
   },
   {
     "goal": {
+      "id": "4",
+      "title": "Inklusive, gleichberechtigte und hochwertige Bildung gewährleisten und Möglichkeiten lebenslangen Lernens für alle fördern",
+      "indicators": [
+        
+        {
+          "id": "4-1",
+          "title": "Indikator für Nachhaltigkeit",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/4-1/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "5",
       "title": "Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen",
       "indicators": [
