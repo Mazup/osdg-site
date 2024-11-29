@@ -204,7 +204,7 @@ menu:
 metadata_edit_url: metadata
 metadata_tabs:
    - publications
-     title: Mehr Informationen
+     title: 'Mehr Informationen'
      description: indicator.source_url_1
 #  - scope: national
 #    title: indicator.national_metadata
