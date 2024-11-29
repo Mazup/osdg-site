@@ -89,6 +89,22 @@
   },
   {
     "goal": {
+      "id": "5",
+      "title": "Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen",
+      "indicators": [
+        
+        {
+          "id": "5-2",
+          "title": "Test 2",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/5-2/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "12",
       "title": "Nachhaltige Konsum- und Produktionsmuster sicherstellen",
       "indicators": [
