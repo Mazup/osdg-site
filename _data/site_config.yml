@@ -251,5 +251,5 @@ validate_site_config: true
 x_axis_label: ''
 use_new_config_forms: true
 indicator_metadata_form:
-  enabled: true
+  enabled: false
   translated: false
