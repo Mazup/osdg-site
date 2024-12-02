@@ -203,10 +203,10 @@ menu:
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
-   - scope: publications
-     title: Mehr Informationen
-     description: 'Weiterführende Informationen des Landes'
-     placeholder: 'Noch keine Daten hinterlegt...'
+  - scope: publications
+    title: Mehr Informationen
+    description: 'Weiterführende Informationen des Landes'
+    placeholder: 'Noch keine Daten hinterlegt...'
      
 #  - scope: national
 #    title: indicator.national_metadata
