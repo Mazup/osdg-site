@@ -137,6 +137,22 @@
   },
   {
     "goal": {
+      "id": "7",
+      "title": "Zugang zu bezahlbarer, verlässlicher, nachhaltiger und moderner Energie für alle sichern",
+      "indicators": [
+        
+        {
+          "id": "7-1",
+          "title": "global_indicators.7-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/osdg-site/7-1/",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "12",
       "title": "Nachhaltige Konsum- und Produktionsmuster sicherstellen",
       "indicators": [

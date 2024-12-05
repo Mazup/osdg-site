@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Konfiguration bearbeiten: 1.1.2 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Konfiguration bearbeiten: 7.1 - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -240,7 +240,7 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
   <div class="row">
-    <div class="col-md-12"><h1>Konfiguration bearbeiten: 1.1.2</h1></div>
+    <div class="col-md-12"><h1>Konfiguration bearbeiten: 7.1</h1></div>
   </div>
   <div class="config-widgets row">
     <div class="col-md-6" id="search_holder">
@@ -508,7 +508,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "Test-Definition");
+        var currentValue = normalizeCurrentValue('graph_title', "global_indicators.7-1-title");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -540,7 +540,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "Test-Indikator");
+        var currentValue = normalizeCurrentValue('indicator_name', "global_indicators.7-1-title");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -554,7 +554,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_number', "1-1-2");
+        var currentValue = normalizeCurrentValue('indicator_number', "7.1");
         var propertyEditor = editor.getEditor('root.indicator_number');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -631,7 +631,7 @@ data-event-label="high"
     function addTranslationLink(propertyEditor) {
       var parts = propertyEditor.value.split('.');
       var translationLink = '';
-      translationLink = translationLink.replace('[id]', '1-1-2');
+      translationLink = translationLink.replace('[id]', '7-1');
       translationLink = translationLink.replace('[group]', parts[0]);
       translationLink = translationLink.replace('[key]', parts[1]);
       translationLink = translationLink.replace('[language]', 'de');
@@ -666,7 +666,7 @@ data-event-label="high"
       else {
         var config = editor.getValue();
         var yaml = jsyaml.safeDump(config);
-        SaveAsFile(yaml, '1-1-2.yml', 'text/plain;charset=utf-8');
+        SaveAsFile(yaml, '7-1.yml', 'text/plain;charset=utf-8');
       }
     });
 
